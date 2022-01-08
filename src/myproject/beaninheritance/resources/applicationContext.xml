@@ -8,11 +8,11 @@
  	<property name="message" value="Have a Great Day"></property>
  </bean>
  <bean id="helloBean" class="myproject.beaninheritance.beans.HelloBean" parent="wishBean">
- 	<!-- <property name="name" value="Himanshu"></property>
- 	<property name="message" value="Good Morning"></property> -->
+ 	<!-- <property name="name" value="Himanshu"></property>-->
+ 	<property name="message" value="Good Morning"></property> 
  </bean>
  <bean id="welcomeBean" class="myproject.beaninheritance.beans.WelcomeBean" parent="wishBean">
- <!-- <property name="name" value="Himanshu"></property>
- <property name="message" value="Welcome to Spring Program"></property> -->
+ <!-- <property name="name" value="Himanshu"></property> -->
+ <property name="message" value="Welcome to Spring Program"></property> 
  </bean>
 </beans>
