@@ -3,7 +3,7 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans
  http://www.springframework.org/schema/beans/spring-beans.xsd">
- <bean id="wishBean" class="myproject.beaninheritance.beans.WishBean">
+ <bean id="wishBean" class="myproject.beaninheritance.beans.WishBean" abstract="true">
  	<property name="name" value="Himanshu"></property>
  	<property name="message" value="Have a Great Day"></property>
  </bean>
